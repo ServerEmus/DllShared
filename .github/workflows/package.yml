@@ -10,6 +10,7 @@ jobs:
   publish-package:
     runs-on: windows-latest
     permissions:
+      contents: write
       packages: write
 
     steps:
