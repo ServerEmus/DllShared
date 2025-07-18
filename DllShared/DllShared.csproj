@@ -8,14 +8,18 @@
 		<Company>UplayEmus</Company>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<RepositoryUrl>https://github.com/UplayEmus/Shared</RepositoryUrl>
+		<RepositoryUrl>https://github.com/UplayEmus/DllShared</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageProjectUrl>https://github.com/UplayEmus/Shared</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/UplayEmus/DllShared</PackageProjectUrl>
 		<Copyright>$(Company)</Copyright>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<IsAotCompatible>True</IsAotCompatible>
 		<IsTrimmable>True</IsTrimmable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<AssemblyName>UplayEmus.DllShared</AssemblyName>
+		<Version>1.0.0</Version>
+		<FileVersion>$(Version)</FileVersion>
+		<AssemblyVersion>$(Version)</AssemblyVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
