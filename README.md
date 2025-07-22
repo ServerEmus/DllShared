@@ -1,2 +1,2 @@
 # DllShared
-Shared stuff for ONLY AOT DLL's.
+Shared Classes for ONLY AOT DLL's.

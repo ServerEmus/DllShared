@@ -4,19 +4,19 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Authors>UplayEmus;Detanup01</Authors>
-		<Company>UplayEmus</Company>
+		<Authors>ServerEmus;Detanup01</Authors>
+		<Company>ServerEmus</Company>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<RepositoryUrl>https://github.com/UplayEmus/DllShared</RepositoryUrl>
+		<RepositoryUrl>https://github.com/ServerEmus/DllShared</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageProjectUrl>https://github.com/UplayEmus/DllShared</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/ServerEmus/DllShared</PackageProjectUrl>
 		<Copyright>$(Company)</Copyright>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<IsAotCompatible>True</IsAotCompatible>
 		<IsTrimmable>True</IsTrimmable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<AssemblyName>UplayEmus.DllShared</AssemblyName>
+		<AssemblyName>ServerEmus.DllShared</AssemblyName>
 		<Version>1.0.0</Version>
 		<FileVersion>$(Version)</FileVersion>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
@@ -28,7 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="UplayEmus.Shared" Version="1.0.0" />
+	  <PackageReference Include="ServerEmus.Shared" Version="1.0.0" />
 	</ItemGroup>
 
 </Project>
