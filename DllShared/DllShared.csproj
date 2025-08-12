@@ -17,7 +17,7 @@
 		<IsTrimmable>True</IsTrimmable>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<AssemblyName>ServerEmus.DllShared</AssemblyName>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<FileVersion>$(Version)</FileVersion>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
 	</PropertyGroup>
@@ -28,7 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="ServerEmus.Shared" Version="1.0.0" />
+	  <PackageReference Include="ServerEmus.Shared" Version="1.1.0" />
 	</ItemGroup>
 
 </Project>
