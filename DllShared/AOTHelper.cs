@@ -1,7 +1,7 @@
 ﻿namespace DllShared;
 
 /// <summary>
-/// Simple hlelper class for Ahead Of Time compilation.
+/// Simple helper class for Ahead Of Time compilation.
 /// </summary>
 public static class AOTHelper
 {

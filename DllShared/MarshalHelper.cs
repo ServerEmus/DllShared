@@ -78,4 +78,16 @@ public static class MarshalHelper
         WriteOutList(outList, values.Count, GetListPtr(values));
     }
 
+    /// <summary>
+    /// Making an <see cref="IntPtr"/> pointer from <paramref name="struct_t"/>.
+    /// </summary>
+    /// <typeparam name="T">Any structure</typeparam>
+    /// <param name="struct_t">The structure to marshal.</param>
+    /// <returns>Allocated and filled Struct Pointer.</returns>
+    public static IntPtr ToIntPtr<T>(this T struct_t) where T : struct
+    {
+        var ptr = Marshal.AllocHGlobal(Marshal.SizeOf<T>());
+        Marshal.StructureToPtr(struct_t, ptr, false);
+        return ptr;
+    }
 }
